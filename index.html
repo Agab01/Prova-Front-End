@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MSC_CRUZEIROS</title>
+  <link rel="stylesheet" href="/CSS/estilo.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <main>
+    <header>
+      <div class="Top_bar">
+        <p>BRASIL 011 - 3878-8135</p>
+      </div>
+
+      <div class="Fixed_bar"></div>
+
+      <div class="Container_header">
+        <div class="Logo">
+          <img src="/img/logo.svg" alt="Logo" />
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#">ENCONTRE SEU CRUZEIRO</a></li>
+            <li><a href="#">OFERTAS</a></li>
+            <li><a href="#">NOSSO NAVIOS</a></li>
+            <li><a href="#">DESTAQUES</a></li>
+            <li><a href="#">DESTINOS</a></li>
+            <li><a href="#">GERENCIAR</a></li>
+            <li><a href="#">MEU CRUZEIRO</a></li>
+            <li><a href="#">LOGIN</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="Promotions_container">
+        <h3>MENU DE PROMOÇÕES</h3>
+        <h2>AMÉRICA DO SUL</h2>
+        <a href="#">
+          <button class="Button_buy">COMPRE AGORA</button>
+        </a>
+      </div>
+    </header>
+
+    <section id="Reservar">
+      <h3>Reserva Agora</h3>
+      <hr class="Divider" />
+
+      <form>
+        <div class="Line">
+          <div class="Field">
+            <label for="Destination">Destino</label>
+            <input type="text" id="Destination" name="Destination" placeholder="Selecionar..." required />
+          </div>
+          <span class="arrows">
+            <img src="img/Seta1.png" alt="Seta" />
+          </span>
+
+          <div class="Field">
+            <label for="Port">Porto de Embarque</label>
+            <input type="text" id="Port" name="Port" placeholder="Selecionar..." />
+          </div>
+          <span class="arrows">
+            <img src="img/Seta2.png" alt="Seta" />
+          </span>
+
+
+          <div class="Field">
+            <label for="Departure_date">Data de Embarque</label>
+            <input type="date" id="Departure_date" name="Departure_date" required />
+          </div>
+        </div>
+
+        <div class="Line">
+          <div class="Field">
+            <label for="Passengers">Passageiros</label>
+            <input type="number" id="Passengers" name="Passengers" placeholder="2 adultos" min="1" required />
+          </div>
+
+          <button type="Submit">BUSCAR</button>
+        </div>
+      </form>
+    </section>
+
+    <section id="Packages">
+      <h1 id="Packages_title">NOSSOS DESTAQUES</h1>
+
+      <div class="Packages_container">
+        <div class="Package">
+          <img src="img/Grand_Voyage.png" alt="Imagem do Local 1" class="Package_image" />
+          <h3>MSC</h3>
+          <h3>Grand Voyages</h3>
+          <p>A partir de*</p>
+          <h2>R$ 7.500,00/pessoa</h2>
+          <p>
+            MSC Seaview Saindo de: Barcelona Porto de desembarque: Rio de
+            Janeiro
+          </p>
+        </div>
+
+        <div class="Package">
+          <img src="img/Dubai.png" alt="Imagem do Local 2" class="Package_image" />
+          <h3>MSC</h3>
+          <h3>Dubai, Abu Dhabi & Qatar</h3>
+          <p>A partir de*</p>
+          <h2>R$ 9.500,00/pessoa</h2>
+          <p>MSC Euribia Saindo de: Dubai Porto de desembarque: Dubai</p>
+        </div>
+
+        <div class="Package">
+          <img src="img/Caribe.png" alt="Imagem do Local 3" class="Package_image" />
+          <h3>MSC</h3>
+          <h3>CARIBE SEM VISTO</h3>
+          <p>A partir de *</p>
+          <h2>R$ 5.500,00/pessoa</h2>
+          <p>
+            Partindo de Miami, Flórida. Labadee, Haiti A bordo Independence of
+            the Seas
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="Our_ships">
+      <div class="Ship_background">
+        <h3 id="Our_ships_title">NOSSOS NAVIOS</h3>
+        <div class="Ship_gallery">
+          <div class="Ship_card">
+            <img src="img/Armonia.png" alt="MSC Armonia" class="Ship_image" />
+            <p class="Ship_name">MSC ARMONIA</p>
+          </div>
+          <div class="Ship_card">
+            <img src="img/Bellissima.png" alt="MSC Bellissima" class="Ship_image" />
+            <p class="Ship_name">MSC BELLISSIMA</p>
+          </div>
+          <div class="Ship_card">
+            <img src="img/Euribia.png" alt="MSC Euribia" class="Ship_image" />
+            <p class="Ship_name">MSC EURIBIA</p>
+          </div>
+          <div class="Ship_card">
+            <img src="img/Meraviglia.png" alt="MSC Meraviglia" class="Ship_image" />
+            <p class="Ship_name">MSC MERAVIGLIA</p>
+          </div>
+          <div class="Ship_card">
+            <img src="img/Opera.png" alt="MSC Opera" class="Ship_image" />
+            <p class="Ship_name">MSC OPERA</p>
+          </div>
+          <div class="Ship_card">
+            <img src="img/Preziosa.png" alt="MSC Preziosa" class="Ship_image" />
+            <p class="Ship_name">MSC PREZIOSA</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>© 2024 MSC Cruises S.A. Todos os direitos reservados.</p>
+  </footer>
+</body>
+
+</html>
